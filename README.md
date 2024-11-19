@@ -27,6 +27,24 @@ Vue.js é um framework JavaScript progressivo usado para construir interfaces de
 - Escalabilidade: Para projetos muito grandes, o Vue pode não ser a escolha ideal sem uma configuração e arquitetura bem definidas, pois pode exigir mais esforço em termos de organização do código.
 No geral, o Vue.js é uma excelente escolha para desenvolvedores que buscam uma solução ágil, escalável e com uma curva de aprendizado rápida para construir interfaces ricas e dinâmicas.
 
+## Requisitos:
+
+- Node.js:
+<a href="https://nodejs.org/en/download/prebuilt-installer">https://nodejs.org/en/download/prebuilt-installer</a>
+
+- Visual Studio Code:
+<a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a>
+
+- Extensão VS Code: 
+### Vetur
+
+- Vue CLI:
+
+```bash
+npm install -g @vue/cli
+```
+
+
 # Autor
 
 Prof. Diego Max da Silva<br>
