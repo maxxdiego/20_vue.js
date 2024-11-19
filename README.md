@@ -30,20 +30,18 @@ No geral, o Vue.js é uma excelente escolha para desenvolvedores que buscam uma 
 ## Requisitos:
 
 - Node.js:
-<a href="https://nodejs.org/en/download/prebuilt-installer">https://nodejs.org/en/download/prebuilt-installer</a>
+<a href="https://nodejs.org/en/download/prebuilt-installer" target="_blank">https://nodejs.org/en/download/prebuilt-installer</a>
 
 - Visual Studio Code:
-<a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a>
+<a href="https://code.visualstudio.com/download" target="_blank">https://code.visualstudio.com/download</a>
 
-- Extensão VS Code: 
-### Vetur
+- Extensão VS Code: Vetur
 
 - Vue CLI:
 
 ```bash
 npm install -g @vue/cli
 ```
-
 
 # Autor
 
