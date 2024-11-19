@@ -1,6 +1,8 @@
 # Vue.js
 
-## Introdução
+![NPM](https://img.shields.io/npm/l/react)
+
+## Introdução:
 
 Vue.js é um framework JavaScript progressivo usado para construir interfaces de usuário e aplicações de página única (SPAs). Ele foi criado por Evan You em 2014, com foco na simplicidade e na flexibilidade. O Vue.js permite a integração gradual em projetos, o que significa que você pode adotá-lo progressivamente em diferentes partes da aplicação.
 
@@ -24,3 +26,8 @@ Vue.js é um framework JavaScript progressivo usado para construir interfaces de
 
 - Escalabilidade: Para projetos muito grandes, o Vue pode não ser a escolha ideal sem uma configuração e arquitetura bem definidas, pois pode exigir mais esforço em termos de organização do código.
 No geral, o Vue.js é uma excelente escolha para desenvolvedores que buscam uma solução ágil, escalável e com uma curva de aprendizado rápida para construir interfaces ricas e dinâmicas.
+
+# Autor
+
+Prof. Diego Max da Silva<br>
+https://lattes.cnpq.br/4370663836049458
