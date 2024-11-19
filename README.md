@@ -43,6 +43,31 @@ No geral, o Vue.js é uma excelente escolha para desenvolvedores que buscam uma 
 npm install -g @vue/cli
 ```
 
+## Criando um projeto com Vue.js:
+
+```bash
+vue create nome-do-projeto
+```
+
+## Rodando o projeto com Vue.js:
+
+- No terminal navegar até a pasta do projeto
+
+```bash
+cd pasta-do-projeto
+```
+
+- Executar o comando:
+
+```bash
+npm run serve
+```
+
+- Acessar a aplicação através do:
+```bash
+http://localhost:8080
+```
+
 # Autor
 
 Prof. Diego Max da Silva<br>
