@@ -35,7 +35,10 @@ No geral, o Vue.js é uma excelente escolha para desenvolvedores que buscam uma 
 - Visual Studio Code:
 <a href="https://code.visualstudio.com/download" target="_blank">https://code.visualstudio.com/download</a>
 
-- Extensão VS Code: Vetur
+- Extensões do VS Code:<br>
+Vetur<br>
+Vue - Official<br>
+
 
 - Vue CLI:
 
