@@ -1,9 +1,9 @@
 <template>
   <div id="cliente">
-    <!-- Data binding (One-Way Binding) -->
-     <input type="text" :value="nome">
+    <!-- Two-Way Binding -->
+     <input type="text" v-model="nome">
      <hr>
-     <input type="text" :value="descricao">
+     <input type="text" v-model="descricao">
 
     <h2 id="clienteNome">{{ nome }}</h2>
     <p>Descrição do cliente: {{ descricao }}</p>
