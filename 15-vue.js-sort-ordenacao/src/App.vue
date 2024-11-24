@@ -11,15 +11,8 @@
     <hr />
 
     <h1>Clientes:</h1>
-    <!-- <input type="text" v-model="nomeClienteOne"> -->
-    <!-- <input type="text" v-model="clienteOne.nome" />
-    <input type="text" v-model="clienteOne.email" /> -->
-    <!-- <ClienteComp :cliente="clienteOne" :showIdade="true" />
-    <ClienteComp :cliente="clienteOne" :showIdade="false" />
-    <ClienteComp :cliente="clienteOne" :showIdade="true" /> -->
 
-    <div v-for="(cliente, index) in clientes" :key="cliente.id">
-      <!-- <p>TESTANDO V-FOR</p> -->
+    <div v-for="(cliente, index) in orderClientes" :key="cliente.id">
       <h4>{{ index + 1 }}</h4>
       <ClienteComp
         :cliente="cliente"
@@ -27,9 +20,6 @@
         @meDelete="deletarUsuario"
       />
       <hr />
-      <!-- <h4>Edição: </h4>
-      <input type="text" v-model="cliente.nome" />
-      <input type="text" v-model="cliente.email" /> -->
     </div>
 
     <hr />
@@ -39,9 +29,8 @@
     <ProdutoComp />
   </div>
 </template>
-  
+
 <script>
-import _ from "lodash";
 import ClienteComp from "./components/ClienteComp.vue";
 import ProdutoComp from "./components/ProdutoComp.vue";
 
@@ -114,6 +103,13 @@ export default {
       const id = $event.idDoCliente;
       const novoArray = this.clientes.filter((cliente) => cliente.id != id);
       this.clientes = novoArray;
+    },
+  },
+  computed: {
+    orderClientes() {
+      return [...this.clientes].sort((a, b) => {
+        return a.nome.localeCompare(b.nome);
+      });
     },
   },
 };
